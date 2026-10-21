@@ -1,0 +1,4 @@
+# Req: the GT4500 cannot fire a single torpedo if both stores are empty
+# Pre: both torpedo stores are empty
+GT4500,0,0,0,0
+TORPEDO,SINGLE  # primary is empty, secondary is empty too, nothing can be fired
