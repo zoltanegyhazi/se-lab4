@@ -1,0 +1,4 @@
+# Req: on the first firing the GT4500 fires from the primary store
+# Pre: 1-1 torpedoes in the stores; the secondary always fails, so firing it would give FAIL
+GT4500,1,0,1,1.0
+TORPEDO,SINGLE  # fires from the primary store (primary: 0, secondary: 1)

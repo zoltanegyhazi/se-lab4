@@ -1,0 +1,5 @@
+# Req: if the store next in line is empty, the GT4500 fires the previously used store again
+# Pre: 2 torpedoes in the primary store, the secondary is empty
+GT4500,2,0,0,0
+TORPEDO,SINGLE  # fires from the primary store
+TORPEDO,SINGLE  # secondary is empty, fires from the primary store again

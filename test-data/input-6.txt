@@ -1,0 +1,4 @@
+# Req: the GT4500 can fire all of its torpedo stores at once
+# Pre: at least 2 torpedoes on the ship (1-1 in the stores)
+GT4500,1,0,1,0
+TORPEDO,ALL  # fires from both stores

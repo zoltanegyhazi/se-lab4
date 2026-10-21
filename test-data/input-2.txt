@@ -1,0 +1,5 @@
+# Req: the GT4500 fires its torpedo stores alternating
+# Pre: 2-2 torpedoes in the stores
+GT4500,2,0,2,0
+TORPEDO,SINGLE  # fires from the primary store
+TORPEDO,SINGLE  # fires from the secondary store (primary: 1, secondary: 1)
