@@ -1,0 +1,4 @@
+# Req: the GT4500 must not fire again if the store reports a failure
+# Pre: at least 1 torpedo on the ship; the primary store always fails
+GT4500,1,1.0,1,0
+TORPEDO,SINGLE  # primary fails, the secondary must not be tried

@@ -1,0 +1,4 @@
+# Req: the GT4500 fires all stores; succeeds if at least one store fires successfully
+# Pre: 1-1 torpedoes in the stores; the primary store always fails
+GT4500,1,1.0,1,0
+TORPEDO,ALL  # primary fails, secondary succeeds

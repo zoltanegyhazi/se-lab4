@@ -1,0 +1,4 @@
+# Req: the GT4500 fires all stores; only the secondary store has torpedoes
+# Pre: the primary store is empty, 1 torpedo in the secondary store
+GT4500,0,0,1,0
+TORPEDO,ALL  # primary is skipped, fires from the secondary store

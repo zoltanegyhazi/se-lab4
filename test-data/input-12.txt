@@ -1,0 +1,5 @@
+# Req: the GT4500 cannot fire if the primary was fired last and both stores are empty
+# Pre: 1 torpedo in the primary store, the secondary store is empty
+GT4500,1,0,0,0
+TORPEDO,SINGLE  # fires from the primary store, both stores are empty now
+TORPEDO,SINGLE  # secondary is empty, primary is empty too, nothing can be fired

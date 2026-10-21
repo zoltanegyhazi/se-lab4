@@ -1,0 +1,4 @@
+# Req: the GT4500 can fire its torpedoes
+# Pre: at least 1 torpedo on the ship
+GT4500,1,0,0,0
+TORPEDO,SINGLE  # should fire from the primary store
